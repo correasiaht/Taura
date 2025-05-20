@@ -1,4 +1,4 @@
-body {
+body { 
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
     color: #000;
@@ -7,7 +7,7 @@ body {
 
 .topo {
     background-color: #4c1e24;
-    padding: 50px;
+    padding: 40px;
 }
 
 .icons {
@@ -17,8 +17,8 @@ body {
 }
 
 .icons img {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -38,10 +38,11 @@ h2 {
 }
 
 .imagens-produtos img {
+    display: block;
     width: 100%;
     max-width: 400px;
+    height: auto;
     margin: 10px auto;
-    display: flex;
 }
 
 .produtos-duplos {
@@ -53,14 +54,19 @@ h2 {
 }
 
 .produtos-duplos img {
-    width: calc(50% - 10px);
+    width: calc(33.333% - 10px); 
     max-width: none;
 }
 
+@media (max-width: 768px) {
+    .produtos-duplos img {
+        width: 100%; 
+    }
+}
 
 .sobre {
     margin-top: 20px;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .sobre h3 {
@@ -68,12 +74,18 @@ h2 {
 }
 
 .sobre p {
-    font-size: 14px;
-    color: #333;
+    font-size: 25px;
+    color: #000;
+}
+
+@media (max-width: 600px) {
+    .sobre p {
+        font-size: 16px;
+    }
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #4c1e24;
     padding: 10px;
 }
@@ -89,3 +101,4 @@ footer {
 .contato:hover {
     transform: scale(1.1);
 }
+
