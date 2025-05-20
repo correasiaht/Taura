@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #2b0000;
+    margin: 0;
+    padding: 0;
+    border-top: 10px solid #4c1e24;
+    border-bottom: 60px solid #4c1e24;
+
+}
+
+.topo {
+    background-color: #4c1e24;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.topo img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.topo img:hover {
+    transform: scale(1.1);
+}
+
+.logo-central {
+    width: 70px;
+    height: 70px;
+}
+
+.carrinho-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #4c1e24;
+}
+
+.tabela {
+    border-top: 2px solid #4c1e24;
+    padding-top: 10px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #4c1e24;
+}
+
+.coluna-produtos {
+    text-align: left;
+}
+
+.coluna-subtotal {
+    text-align: right;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #4c1e24;
+    margin: 0;
+}
+
+.mensagem-vazio {
+    margin-top: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4c1e24;
+}
