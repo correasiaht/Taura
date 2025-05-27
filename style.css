@@ -58,7 +58,7 @@ h2 {
     max-width: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .produtos-duplos img {
         width: 100%; 
     }
